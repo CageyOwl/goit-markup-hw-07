@@ -555,8 +555,7 @@ body {
   fill: rgb(33, 150, 243);
 }
 
-.user-meta__checkbox-link,
-.user-meta__checkbox-link:visited {
+.user-meta__checkbox-link {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -568,7 +567,9 @@ body {
   text-decoration: none;
   color: rgb(33, 150, 243);
 }
-
+.user-meta__checkbox-link:visited {
+  color: rgb(33, 150, 243);
+}
 .user-meta__checkbox-link::after {
   content: "";
   position: absolute;
