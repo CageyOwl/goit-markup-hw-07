@@ -18,7 +18,8 @@
             transition: color $main-transition-delay $main-transition-timing-function,
                         fill $main-transition-delay $main-transition-timing-function;
 
-            &:hover {
+            &:hover,
+            &:focus {
                 color: $accentuation-color;
                 fill: $accentuation-color;
             }
